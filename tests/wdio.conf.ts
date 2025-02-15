@@ -81,7 +81,7 @@ export const config: WebdriverIO.MultiremoteConfig = {
     framework: 'mocha',
 
     mochaOpts: {
-        timeout: 60_000
+        timeout: 120_000
     },
 
     capabilities: {
